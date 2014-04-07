@@ -1,0 +1,26 @@
+{
+  "name": "fabrique",
+  "version": "0.0.0",
+  "description": "fabrique theme",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "grunt",
+    "bootstrap",
+    "less",
+    "css",
+    "html",
+    "js",
+    "fabrique"
+  ],
+  "author": "Roger",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-less": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
