@@ -1,6 +1,20 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #efe8de;
+  background-image: url(../img/bg.jpg);
+}
+.logotype h1 {
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+.logotype p {
+  font-family: 'Gudea', sans-serif;
+  font-size: 25px;
+  color: #979695;
+  text-transform: uppercase;
 }
 .container {
   margin-right: auto;
@@ -15,12 +29,12 @@ body {
 }
 @media (min-width: 992px) {
   .container {
-    width: 1000px;
+    width: 1050px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1000px;
+    width: 1050px;
   }
 }
 .container-fluid {
@@ -682,15 +696,20 @@ body {
 }
 @media (min-width: 992px) {
   .wrap {
-    width: 1000px;
+    width: 1050px;
   }
 }
 @media (min-width: 1200px) {
   .wrap {
-    width: 1000px;
+    width: 1050px;
   }
 }
-.logotype {
+.header {
+  height: 214px;
+  background-color: #fff;
+  margin-top: 65px;
+}
+.header .logotype {
   float: left;
   width: 100%;
   position: relative;
@@ -699,24 +718,24 @@ body {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .logotype {
+  .header .logotype {
     float: left;
     width: 33.33333333%;
   }
 }
 @media (min-width: 992px) {
-  .logotype {
+  .header .logotype {
     float: left;
     width: 33.33333333%;
   }
 }
 @media (min-width: 1200px) {
-  .logotype {
+  .header .logotype {
     float: left;
     width: 33.33333333%;
   }
 }
-.user-menu {
+.header .user-menu {
   float: left;
   width: 100%;
   position: relative;
@@ -725,24 +744,24 @@ body {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .user-menu {
+  .header .user-menu {
     float: left;
     width: 25%;
   }
 }
 @media (min-width: 992px) {
-  .user-menu {
+  .header .user-menu {
     float: left;
     width: 25%;
   }
 }
 @media (min-width: 1200px) {
-  .user-menu {
+  .header .user-menu {
     float: left;
     width: 25%;
   }
 }
-.currency {
+.header .currency {
   float: left;
   width: 100%;
   position: relative;
@@ -751,24 +770,24 @@ body {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .currency {
+  .header .currency {
     float: left;
     width: 16.66666667%;
   }
 }
 @media (min-width: 992px) {
-  .currency {
+  .header .currency {
     float: left;
     width: 16.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  .currency {
+  .header .currency {
     float: left;
     width: 16.66666667%;
   }
 }
-.basket {
+.header .basket {
   float: left;
   width: 100%;
   position: relative;
@@ -777,19 +796,19 @@ body {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .basket {
+  .header .basket {
     float: left;
     width: 25%;
   }
 }
 @media (min-width: 992px) {
-  .basket {
+  .header .basket {
     float: left;
     width: 25%;
   }
 }
 @media (min-width: 1200px) {
-  .basket {
+  .header .basket {
     float: left;
     width: 25%;
   }
